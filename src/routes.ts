@@ -33,7 +33,7 @@ export const Routes = [
   },
   {
     method: "patch",
-    route: "/users/",
+    route: "/users/:id",
     controller: UserController,
     action: "update",
   },
